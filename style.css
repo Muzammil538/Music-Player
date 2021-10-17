@@ -15,14 +15,15 @@ i.hide {
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 20px;
+    width: 90%;
 }
 .head {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 8px;
+    padding: 5px;
 }
 .img {
     text-align: center;
