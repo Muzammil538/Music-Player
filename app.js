@@ -5,6 +5,7 @@ var music = new Audio("music1.mp3");
 const Img = document.querySelector("img");
 const List = document.querySelector("#list");
 const lost_sky = document.querySelector("#lost_sky");
+const mmh = document.querySelector("#mmh");
 
 List.addEventListener("click", ()=> {
     var list_item = document.querySelector("#list-icon");
@@ -34,6 +35,14 @@ pauseBtn.addEventListener("click",(e)=>{
 function PlayNew(){
     lost_sky.addEventListener("click", ()=>{
         music = new Audio("LostSky.mp3");
+        music.play();
+        pauseBtn.classList.remove("hide");
+    playBtn.classList.add("hide");
+    })
+}
+function PlayNew(){
+    mmh.addEventListener("click", ()=>{
+        music = new Audio("mmh.mp3");
         music.play();
         pauseBtn.classList.remove("hide");
     playBtn.classList.add("hide");
