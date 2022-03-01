@@ -6,39 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="shortcut icon" href="./music.ico" type="image/x-icon">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/d75579f2c2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Imges/music.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="card">
-        <div class="head">
-            <h2>Music Player</h2>
-            <i class="fas fa-list" id="list"></i>
+    <!-- <i class="fa-solid fa-pause"></i> -->
+    <header>
+        <div class="title">
+            <h1>Music Player</h1>
         </div>
-        <div class="img">
-            <img src="./music.jpg" alt="image">
+    </header>
+    <section class="container">
+        <div class="con-title">
+            <h3>Music</h3>
         </div>
-        <div class="controls">
-            <i class="fas fa-backward"></i>
-            <i class="fas fa-play" id="play"></i>
-            <i class="fas fa-pause hide" id="pause"></i>
-            <i class="fas fa-forward"></i>
+        <div class="wrapper">
+            <div class="card">
+                <video src="./Video/Let Me Down Slowly x Main Dhoondne Ko Zamaane Mein.mp4" controls></video>
+                <h4>Let Me Down Slowly x Main Dhoondne Ko Zamaane Mein</h4>
+            </div>
+            <div class="card">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/s-bZD3O3P80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Arcade</h4>
+            </div>
+            <div class="card">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/s-bZD3O3P80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Arcade</h4>
+            </div>
         </div>
-        <div class="progress">
-            <p class="progress-bar"><p class="progress-boll"></p></p>
-        </div>
-        <div class="list" id="list-icon">
-            <p id="lost_sky">
-                LOST_SKY
-            </p>
-            <p id="mmh">
-                Manike Mage Hithe
-            </p>
-            <p>
-                name 3
-            </p>
-        </div>
-    </div>
+    </section>
+   
 
     <script src="./app.js"></script>
 </body>
