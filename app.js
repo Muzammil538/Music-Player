@@ -16,3 +16,6 @@ pauseBtn.addEventListener("click",(e)=>{
     pauseBtn.classList.add("hide");
     playBtn.classList.remove("hide");
 });
+
+
+alert("Hello")
