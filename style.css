@@ -45,7 +45,7 @@ header {
     }
     .wrapper {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-rows: auto;
         padding: 5px 15px;
         margin-top: 20px;
         row-gap: 10px;
